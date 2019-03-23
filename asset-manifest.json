@@ -1,14 +1,14 @@
 {
-  "main.css": "/LearningReact/static/css/main.010a029a.chunk.css",
-  "main.js": "/LearningReact/static/js/main.6cb7991f.chunk.js",
-  "main.js.map": "/LearningReact/static/js/main.6cb7991f.chunk.js.map",
-  "runtime~main.js": "/LearningReact/static/js/runtime~main.1777d9bb.js",
-  "runtime~main.js.map": "/LearningReact/static/js/runtime~main.1777d9bb.js.map",
-  "static/js/2.eecab9ea.chunk.js": "/LearningReact/static/js/2.eecab9ea.chunk.js",
-  "static/js/2.eecab9ea.chunk.js.map": "/LearningReact/static/js/2.eecab9ea.chunk.js.map",
+  "main.css": "/LearningReact/static/css/main.5d1c3ae3.chunk.css",
+  "main.js": "/LearningReact/static/js/main.6a7a5c05.chunk.js",
+  "main.js.map": "/LearningReact/static/js/main.6a7a5c05.chunk.js.map",
+  "runtime~main.js": "/LearningReact/static/js/runtime~main.6f70292e.js",
+  "runtime~main.js.map": "/LearningReact/static/js/runtime~main.6f70292e.js.map",
+  "static/js/2.faab621f.chunk.js": "/LearningReact/static/js/2.faab621f.chunk.js",
+  "static/js/2.faab621f.chunk.js.map": "/LearningReact/static/js/2.faab621f.chunk.js.map",
   "index.html": "/LearningReact/index.html",
-  "precache-manifest.21dd0de605e3fcb70f9f9467508b30a5.js": "/LearningReact/precache-manifest.21dd0de605e3fcb70f9f9467508b30a5.js",
+  "precache-manifest.ce9483d7d2fedcc5d532eca739372ac0.js": "/LearningReact/precache-manifest.ce9483d7d2fedcc5d532eca739372ac0.js",
   "service-worker.js": "/LearningReact/service-worker.js",
-  "static/css/main.010a029a.chunk.css.map": "/LearningReact/static/css/main.010a029a.chunk.css.map",
+  "static/css/main.5d1c3ae3.chunk.css.map": "/LearningReact/static/css/main.5d1c3ae3.chunk.css.map",
   "static/media/shine.png": "/LearningReact/static/media/shine.cd828b30.png"
 }
