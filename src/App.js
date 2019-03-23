@@ -3,31 +3,45 @@ import ReactDOM from 'react-dom';
 import logo from './shine.png';
 import './App.css';
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={};
+    this.state = { date: new Date(), isToggleOn:true };
+
+    this.handleClick = this.handleClick.bind(this);
   }
-  on
-  render() {
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+  tick() {
+
+    this.setState({
+      date: new Date()
+    });
+  }
+  handleClick(){
+    this.setState(state=>({
+      isToggleOn: !state.isToggleOn
+    }));
+  }
+ 
+  render() { 
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-           <h1>Blip Blip</h1>
-          </p>
-          
-        </header>
+      <div >
+        <h1>Nicki Berlin</h1>
+        <h2> It is {this.state.date.toLocaleTimeString()}</h2>
+      
+      
+      <button onClick={this.handleClick}>
+        {this.state.isToggleOn ? 'On' : 'Off'}
+      </button>
       </div>
     );
   }
 }
-function clock(){
-  const element=(<h1>
-    Klockan är {new Date().toLocaleTimeString()}.
-  </h1>);
-  ReactDOM.render(element,document.getElementById('root'));
-}
-setInterval(clock,1000);
-
 export default App;
