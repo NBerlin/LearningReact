@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://NBerlin.github.io/LearningReact/",
   "dependencies": {
+    "chess.js": "^0.10.2",
+    "chessboardjsx": "^2.3.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
